@@ -1,571 +1,301 @@
 {
-    "flash-sales": [
-        {
-            "id": 1,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uxktertbmmtakzyk5akv.png",
-            "name": "HAVIT HV-G92 Gamepad",
-            "price": "160",
-            "sales": 40,
-            "stock": 88
-        },
-        {
-            "id": 2,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/sgadaytsiy9gtchx39rz.png",
-            "name": "AK-900 Wired Keyboard",
-            "price": "1160",
-            "sales": 35,
-            "stock": 75
-        },
-        {
-            "id": 3,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/cttthsppy3r0mjawinvk.png",
-            "name": "IPS LCD Gaming Monitor",
-            "price": "400",
-            "sales": 30,
-            "stock": 99
-        },
-        {
-            "id": 4,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uoger9v0ac4npt32c43l.png",
-            "name": "S-Series Comfort Chair",
-            "price": "400",
-            "sales": 0,
-            "stock": 15
-        },
-        {
-            "id": 5,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uxktertbmmtakzyk5akv.png",
-            "name": "HAVIT HV-G92 Gamepad",
-            "price": "160",
-            "sales": 40,
-            "stock": 88
-        },
-        {
-            "id": 6,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/sgadaytsiy9gtchx39rz.png",
-            "name": "AK-900 Wired Keyboard",
-            "price": "1160",
-            "sales": 35,
-            "stock": 75
-        },
-        {
-            "id": 7,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/cttthsppy3r0mjawinvk.png",
-            "name": "IPS LCD Gaming Monitor",
-            "price": "400",
-            "sales": 30,
-            "stock": 99
-        },
-        {
-            "id": 8,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uoger9v0ac4npt32c43l.png",
-            "name": "S-Series Comfort Chair",
-            "price": "400",
-            "sales": 0,
-            "stock": 15
-        },
-        {
-            "id": 9,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uxktertbmmtakzyk5akv.png",
-            "name": "HAVIT HV-G92 Gamepad",
-            "price": "160",
-            "sales": 40,
-            "stock": 88
-        },
-        {
-            "id": 10,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/sgadaytsiy9gtchx39rz.png",
-            "name": "AK-900 Wired Keyboard",
-            "price": "1160",
-            "sales": 35,
-            "stock": 75
-        },
-        {
-            "id": 11,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/cttthsppy3r0mjawinvk.png",
-            "name": "IPS LCD Gaming Monitor",
-            "price": "400",
-            "sales": 30,
-            "stock": 99
-        },
-        {
-            "id": 12,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uoger9v0ac4npt32c43l.png",
-            "name": "S-Series Comfort Chair",
-            "price": "400",
-            "sales": 0,
-            "stock": 15
-        }
+    "categories": [
+      { "id": 1, "name": "LightWeight Tents" },
+      { "id": 2, "name": "Glamping Tents" },
+      { "id": 3, "name": "Sleeping Bags" },
+      { "id": 4, "name": "SSleeping Pads" },
+      { "id": 5, "name": "Cookware" },
+      { "id": 6, "name": "Camping Chairs" },
+      { "id": 7, "name": "Folding Tables" }
     ],
-    "best-sell": [
-        {
-            "id": 1,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/gucci_bag.png",
-            "name": "The north coat",
-            "price": "360",
-            "sales": 30,
-            "stock": 65
+    "products": [
+      {
+        "id": 1,
+        "name": "Cloud UP 2 People 3-season Camping Tent Ultralight 20D",
+        "price": 179.00,
+        "image_url": "/Image/Tent/lightweighttent/5_ef94df55-d42c-4dff-b60c-6e1b0165b664.jpg",
+        "category_id": 1,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 2,
+        "name": "Mongar 2 People Camping Tent Regular",
+        "price": 189.00,
+        "image_url": "/Image/Tent/lightweighttent/1_b086c95f-4ca9-411a-963e-59c86151d027.jpg",
+        "category_id": 1,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 3,
+        "name": "Cloud UP 3 People 3-season Camping Tent",
+        "price": 229.00,
+        "image_url": "/Image/Tent/lightweighttent/1200x1200-1_248ae6b8-2a4c-489e-933d-f523ff714c78.jpg",
+        "category_id": 1,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+          "id": 4,
+          "name": "Cloud Up Base 1-2 People Lightweight Tent",
+          "price": 159.00,
+          "image_url": "/Image/Tent/lightweighttent/1_32e5f93f-fd34-4b92-a27b-50be887924ff.jpg",
+          "category_id": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
         },
-        {
-            "id": 2,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/bummaxx.png",
-            "name": "Gucci duffle bag",
-            "price": "1160",
-            "sales": 20,
-            "stock": 65
+      {
+          "id": 5,
+          "name": "Opalus  Tunnel  3 People Camping Tent",
+          "price": 369.00,
+          "image_url": "https://www.naturehike.au/cdn/shop/files/1_c7d0c209-10a2-4551-8d5b-5478e832bba2.jpg?v=1705640895&width=1080",
+          "category_id": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
         },
-        {
-            "id": 3,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/coat.png",
-            "name": "RGB liquid CPU Cooler",
-            "price": "170",
-            "sales": 5,
-            "stock": 65
+      {
+          "id": 6,
+          "name": "Cloud-Creek Ultralight Freestanding Tent",
+          "price": 139.00,
+          "image_url": "/Image/Tent/lightweighttent/1_92d29e48-8a10-4fbe-9160-7c7507a56ccd.jpg",
+          "category_id": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
         },
-        {
-            "id": 4,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/bookself.png",
-            "name": "Small BookSelf",
-            "price": "360",
-            "sales": 0,
-            "stock": 65
-        }
-    ],
-    "our-products": [
-        {
-            "id": 1,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/car_toy.png",
-            "name": "Kids Electric Car",
-            "price": "960",
-            "stock": 65
+      {
+          "id": 7,
+          "name": "3-Season Star-River 2 People Camping Tent Regular price",
+          "price": 179.00,
+          "image_url": "/Image/Tent/lightweighttent/1_65746ff6-5f23-4b00-9bf4-2b3f1a320fe5.jpg",
+          "category_id": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
         },
-        {
-            "id": 2,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/laptop.png",
-            "name": "ASUS FHD Gaming Laptop",
-            "price": "700",
-            "stock": 95
+      {
+          "id": 8,
+          "name": "Cloud-Creek Pro Ultralight Freestanding Tent",
+          "price": 159.00,
+          "image_url": "/Image/Tent/lightweighttent/1_34f543b1-59c5-4c13-b18d-01e5d94cd6a0.jpg",
+          "category_id": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
         },
-        {
-            "id": 3,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/shoeSports.png",
-            "name": "Jr. Zoom Soccer Cleats",
-            "price": "1160",
-            "stock": 35
-        },
-        {
-            "id": 4,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/ps2.png",
-            "name": "GP11 Shooter USB Gamepad",
-            "price": "660",
-            "stock": 55
-        },
-        {
-            "id": 5,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/cameraCanon.png",
-            "name": "CANON EOS DSLR Camera",
-            "price": "360",
-            "stock": 95
-        },
-        {
-            "id": 6,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/shampoo.png",
-            "name": "Curology Product Set",
-            "price": "500",
-            "stock": 145
-        },
-        {
-            "id": 7,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/bomber.png",
-            "name": "Quilted Satin Jacket",
-            "price": "660",
-            "stock": 55
-        },
-        {
-            "id": 8,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/dog_food.png",
-            "name": "Breed Dry Dog Food",
-            "price": "100",
-            "stock": 35
-        },
-        {
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/sgadaytsiy9gtchx39rz.png",
-            "name": "AK-900 Wired Keyboard",
-            "price": "1160",
-            "quantity": 1,
-            "subtotal": "",
-            "id": 9
-        },
-        {
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/bummaxx.png",
-            "name": "Gucci duffle bag",
-            "price": "1160",
-            "subtotal": "",
-            "quantity": 1,
-            "id": 10
-        }
-    ],
-    "just-for-you": [
-        {
-            "id": 1,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uxktertbmmtakzyk5akv.png",
-            "name": "HAVIT HV-G92 Gamepad",
-            "price": "160",
-            "sales": 40,
-            "stock": 88
-        },
-        {
-            "id": 2,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/laptop.png",
-            "name": "ASUS FHD Gaming Laptop",
-            "price": "700",
-            "stock": 95
-        },
-        {
-            "id": 3,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/shoeSports.png",
-            "name": "Jr. Zoom Soccer Cleats",
-            "price": "1160",
-            "stock": 35
-        },
-        {
-            "id": 4,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/ps2.png",
-            "name": "GP11 Shooter USB Gamepad",
-            "price": "660",
-            "stock": 55
-        },
-        {
-            "id": 5,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/cameraCanon.png",
-            "name": "CANON EOS DSLR Camera",
-            "price": "360",
-            "stock": 95
-        },
-        {
-            "id": 6,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/shampoo.png",
-            "name": "Curology Product Set",
-            "price": "500",
-            "stock": 145
-        },
-        {
-            "id": 7,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/bomber.png",
-            "name": "Quilted Satin Jacket",
-            "price": "660",
-            "stock": 55
-        },
-        {
-            "id": 8,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/dog_food.png",
-            "name": "Breed Dry Dog Food",
-            "price": "100",
-            "stock": 35
-        },
-        {
-            "id": 9,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/gucci_bag.png",
-            "name": "The north coat",
-            "price": "360",
-            "sales": 30,
-            "stock": 65
-        },
-        {
-            "id": 10,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/bummaxx.png",
-            "name": "Gucci duffle bag",
-            "price": "1160",
-            "sales": 20,
-            "stock": 65
-        },
-        {
-            "id": 11,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/coat.png",
-            "name": "RGB liquid CPU Cooler",
-            "price": "170",
-            "sales": 5,
-            "stock": 65
-        },
-        {
-            "id": 12,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/bookself.png",
-            "name": "Small BookSelf",
-            "price": "360",
-            "sales": 0,
-            "stock": 65
-        }
-    ],
-    "wish-list": [
-        {
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uxktertbmmtakzyk5akv.png",
-            "name": "HAVIT HV-G92 Gamepad",
-            "price": "160",
-            "quantity": 1,
-            "subtotal": "",
-            "nameList": "flash-sales",
-            "id": 1
-        }
-    ],
-    "user-products": [
-        {
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/sgadaytsiy9gtchx39rz.png",
-            "name": "AK-900 Wired Keyboard",
-            "price": "1160",
-            "quantity": 1,
-            "subtotal": "",
-            "nameList": "flash-sales",
-            "id": 2
-        },
-        {
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uoger9v0ac4npt32c43l.png",
-            "name": "S-Series Comfort Chair",
-            "price": "400",
-            "quantity": 1,
-            "subtotal": "",
-            "nameList": "flash-sales",
-            "id": 4
-        }
-    ],
-    "allProducts": [
-        {
-            "id": 1,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uxktertbmmtakzyk5akv.png",
-            "name": "HAVIT HV-G92 Gamepad",
-            "price": "160",
-            "sales": 40,
-            "stock": 88,
-            "nameList": "flash-sales"
-        },
-        {
-            "id": 2,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/sgadaytsiy9gtchx39rz.png",
-            "name": "AK-900 Wired Keyboard",
-            "price": "1160",
-            "sales": 35,
-            "stock": 75,
-            "nameList": "flash-sales"
-        },
-        {
-            "id": 3,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/cttthsppy3r0mjawinvk.png",
-            "name": "IPS LCD Gaming Monitor",
-            "price": "400",
-            "sales": 30,
-            "stock": 99,
-            "nameList": "flash-sales"
-        },
-        {
-            "id": 4,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uoger9v0ac4npt32c43l.png",
-            "name": "S-Series Comfort Chair",
-            "price": "400",
-            "sales": 0,
-            "stock": 15,
-            "nameList": "flash-sales"
-        },
-        {
-            "id": 1,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/gucci_bag.png",
-            "name": "The north coat",
-            "price": "360",
-            "sales": 30,
-            "stock": 65,
-            "nameList": "best-sell"
-        },
-        {
-            "id": 2,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/bummaxx.png",
-            "name": "Gucci duffle bag",
-            "price": "1160",
-            "sales": 20,
-            "stock": 65,
-            "nameList": "best-sell"
-        },
-        {
-            "id": 3,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/coat.png",
-            "name": "RGB liquid CPU Cooler",
-            "price": "170",
-            "sales": 5,
-            "stock": 65,
-            "nameList": "best-sell"
-        },
-        {
-            "id": 4,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/bookself.png",
-            "name": "Small BookSelf",
-            "price": "360",
-            "sales": 0,
-            "stock": 65,
-            "nameList": "best-sell"
-        },
-
-        {
-            "id": 1,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/car_toy.png",
-            "name": "Kids Electric Car",
-            "price": "960",
-            "stock": 65,
-            "nameList": "our-products"
-        },
-        {
-            "id": 2,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/laptop.png",
-            "name": "ASUS FHD Gaming Laptop",
-            "price": "700",
-            "stock": 95,
-            "nameList": "our-products"
-        },
-        {
-            "id": 3,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/shoeSports.png",
-            "name": "Jr. Zoom Soccer Cleats",
-            "price": "1160",
-            "stock": 35,
-            "nameList": "our-products"
-        },
-        {
-            "id": 4,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/ps2.png",
-            "name": "GP11 Shooter USB Gamepad",
-            "price": "660",
-            "stock": 55,
-            "nameList": "our-products"
-        },
-        {
-            "id": 5,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/cameraCanon.png",
-            "name": "CANON EOS DSLR Camera",
-            "price": "360",
-            "stock": 95,
-            "nameList": "our-products"
-        },
-        {
-            "id": 6,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/shampoo.png",
-            "name": "Curology Product Set",
-            "price": "500",
-            "stock": 145,
-            "nameList": "our-products"
-        },
-        {
-            "id": 7,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/bomber.png",
-            "name": "Quilted Satin Jacket",
-            "price": "660",
-            "stock": 55,
-            "nameList": "our-products"
-        },
-        {
-            "id": 8,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/dog_food.png",
-            "name": "Breed Dry Dog Food",
-            "price": "100",
-            "stock": 35,
-            "nameList": "our-products"
-        },
-
-        {
-            "id": 1,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607730/ecommerce-vuejs/flashsales/uxktertbmmtakzyk5akv.png",
-            "name": "HAVIT HV-G92 Gamepad",
-            "price": "160",
-            "sales": 40,
-            "stock": 88,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 2,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/laptop.png",
-            "name": "ASUS FHD Gaming Laptop",
-            "price": "700",
-            "stock": 95,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 3,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/shoeSports.png",
-            "name": "Jr. Zoom Soccer Cleats",
-            "price": "1160",
-            "stock": 35,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 4,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/ps2.png",
-            "name": "GP11 Shooter USB Gamepad",
-            "price": "660",
-            "stock": 55,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 5,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/cameraCanon.png",
-            "name": "CANON EOS DSLR Camera",
-            "price": "360",
-            "stock": 95,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 6,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/shampoo.png",
-            "name": "Curology Product Set",
-            "price": "500",
-            "stock": 145,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 7,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/bomber.png",
-            "name": "Quilted Satin Jacket",
-            "price": "660",
-            "stock": 55,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 8,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718611570/ecommerce-vuejs/Our%20Products/dog_food.png",
-            "name": "Breed Dry Dog Food",
-            "price": "100",
-            "stock": 35,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 9,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/gucci_bag.png",
-            "name": "The north coat",
-            "price": "360",
-            "sales": 30,
-            "stock": 65,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 10,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/bummaxx.png",
-            "name": "Gucci duffle bag",
-            "price": "1160",
-            "sales": 20,
-            "stock": 65,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 11,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/coat.png",
-            "name": "RGB liquid CPU Cooler",
-            "price": "170",
-            "sales": 5,
-            "stock": 65,
-            "nameList": "just-for-you"
-        },
-        {
-            "id": 12,
-            "img": "https://res.cloudinary.com/dgh7tgs5l/image/upload/v1718607766/ecommerce-vuejs/best%20selling/bookself.png",
-            "name": "Small BookSelf",
-            "price": "360",
-            "sales": 0,
-            "stock": 65,
-            "nameList": "just-for-you"
-        }
+      {
+        "id": 9,
+        "name": "Village Suite Roof Automatic Tent Regular",
+        "price": 1.099,
+        "image_url": "/Image/Tent/glampingtent/1_43a91a11-32c7-41a6-bc81-17bec8c28c97.jpg",
+        "category_id": 2,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 10,
+        "name": "Flame Retardant 4-Season Camping Tent",
+        "price": 341.99,
+        "image_url": "/Image/Tent/glampingtent/1_63c8686e-357a-4ddd-bec7-38312991a27b.jpg",
+        "category_id": 2,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 11,
+        "name": "Brighten 6.4 Cotton Pyramid 4 Season Tent",
+        "price": 399.00,
+        "image_url": "/Image/Tent/glampingtent/H20ZP004_64_2.jpg",
+        "category_id": 2,
+        "description": "Double-layer tent suitable for 3-season camping."
+      },
+      {
+        "id": 12,
+        "name": "Village 6.0 Roof Automatic Tent",
+        "price": 599.99,
+        "image_url": "/Image/Tent/glampingtent/1_6a273a03-4cdd-4512-995c-b0e391c15adb.jpg",
+        "category_id": 2,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nescinot consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 13,
+        "name": "Ridge A-type 2 People Elevated Automatic Tent",
+        "price": 429,
+        "image_url": "/Image/Tent/glampingtent/1_d012e80b-4be3-4f08-b953-a5898276b457.jpg",
+        "category_id": 2,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 14,
+        "name": "Ranch 4 People Pyramid Luxury Camping Tent",
+        "price": 499,
+        "image_url": "/Image/Tent/glampingtent/1200x1200-5_05fbf264-8847-4033-943c-6ecd7dff5d93.jpg",
+        "category_id": 2,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 15,
+        "name": "Cloud Boat One-Bedroom Speedy Tunnel Tent",
+        "price": 699,
+        "image_url": "/Image/Tent/glampingtent/1_d51a5b13-85ab-44fc-b2e7-4c38d1928b47.jpg",
+        "category_id": 2,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 16,
+        "name": "Village 5.0-Roof Automatic Tent",
+        "price": 399,
+        "image_url": "/Image/Tent/glampingtent/1_4576112f-9a2c-473d-bbed-4c865db2b387.jpg",
+        "category_id": 2,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 17,
+        "name": "Wild Trekking Aluminum Alloy Pot",
+        "price": 69.99,
+        "image_url": "/Image/Cookware/01_ad087f9d-9920-4612-9174-b9475adfaa05.jpg",
+        "category_id": 5,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 18,
+        "name": "Natuehike Titanium knife, fork and spoon set",
+        "price": 39.99,
+        "image_url": "/Image/Cookware/1_ea284c73-f639-4628-a0db-4498081ce836.jpg",
+        "category_id": 5,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 19,
+        "name": "Naturehike 6L/10L Aluminum Sling Pot",
+        "price": 61.99,
+        "image_url": "/Image/Cookware/1_a178647b-0285-4227-9926-21f20ecbae9e.jpg",
+        "category_id": 5,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 20,
+        "name": "Naturehike 4-6 Persons Aluminum Alloy Hanging Pot",
+        "price": 38.99,
+        "image_url": "/Image/Cookware/1_9e7d9ef5-e979-404c-83d3-7462222ca3a0.jpg",
+        "category_id": 5,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 21,
+        "name": "CW400 Duck Down Mummy Sleeping Bag",
+        "price": 219.00,
+        "image_url": "/Image/SleepingBag/1_15cf98fe-42cb-4d17-ace5-6c9759ebccd4.jpg",
+        "category_id": 3,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 22,
+        "name": "CW280 Ultralight Sleeping Bag",
+        "price":139.00,
+        "image_url": "/Image/SleepingBag/1-CWM400.jpg",
+        "category_id": 3,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 23,
+        "name": "CW295 Duck Down Envelope Sleeping Bag",
+        "price": 149.99,
+        "image_url": "/Image/SleepingBag/CW295_1.jpg",
+        "category_id": 3,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 24,
+        "name": "LW180 Mini Square Cotton Sleeping Bag",
+        "price": 45.99,
+        "image_url": "/Image/SleepingBag/1_eec27afe-3ad6-4a8a-8721-58188a94a241.jpg",
+        "category_id": 3,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 25,
+        "name": "Naturehike Summer Sleeping Bag with Pillow",
+        "price": 69.99,
+        "image_url": "/Image/SleepingBag/1_0b12a310-1aab-4c1c-93ad-a25fd731e8c9.jpg",
+        "category_id": 3,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 26,
+        "name": "JA Series Alpine Goose Down Sleeping Bag Regular",
+        "price": 599.00,
+        "image_url": "/Image/SleepingBag/3000_1.jpg",
+        "category_id": 3,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 27,
+        "name": "Ling Dong Square Wth Hat Cotton Sleeping Bag",
+        "price": 58.99,
+        "image_url": "/Image/SleepingBag/LD150.jpg",
+        "category_id": 3,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 28,
+        "name": "Naturehike Akino Double Sleeping Bag",
+        "price": 189.99,
+        "image_url": "/Image/SleepingBag/1-1_548cc88a-48f2-4a68-bbc7-b85a38206820.jpg",
+        "category_id": 3,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 29,
+        "name": "YL08 Ultralight Foldable Camping Chair",
+        "price": 69.99,
+        "image_url": "/Image/CampingChair/11_2.jpg",
+        "category_id": 6,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      }, 
+      {
+        "id": 30,
+        "name": "YL10 Ultralight Foldable Camping Chair",
+        "price": 89.99,
+        "image_url": "/Image/CampingChair/1200x1200_445bf90c-a2d2-4015-8cd1-baf8f64ff15f.jpg",
+        "category_id": 6,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      }, 
+      {
+        "id": 31,
+        "name": "Stellaluna L04 Moon Chair",
+        "price": 81.99,
+        "image_url": "/Image/CampingChair/1_834d8137-6184-4f29-a456-cf11214663cb.jpg",
+        "category_id": 6,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      }, 
+      {
+        "id": 32,
+        "name": "YL06 Oversized Lightweight Camping Chair",
+        "price": 79.99,
+        "image_url": "/Image/CampingChair/6_d3e00797-d008-45fd-b3e8-b4b1234535b3.jpg",
+        "category_id": 6,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 33,
+        "name": "Lispace Folding Storage Integrated Table",
+        "price": 109.00,
+        "image_url": "/Image/FoldingTable/01_36ab8836-51e6-43f8-8167-4ec01ee8babe.jpg",
+        "category_id": 7,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 34,
+        "name": "FT11 Removable Aluminum Table",
+        "price": 79.99,
+        "image_url": "/Image/FoldingTable/1_424ccfdd-f364-4865-8bc0-3c8b252f5e6c.jpg",
+        "category_id": 7,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 35,
+        "name": "Naturehike Small Portable Folding Table Regular",
+        "price": 49.99,
+        "image_url": "/Image/FoldingTable/1_a321a4c9-496a-44a6-b3ca-52ee694593ed.jpg",
+        "category_id": 7,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      },
+      {
+        "id": 36,
+        "name": "MDF Folding Mini Table",
+        "price": 59.99,
+        "image_url": "/Image/FoldingTable/1_3329ec1b-cbb9-46c5-a1bd-ea48af95a905.jpg",
+        "category_id": 7,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis voluptatibus consectetur aliquam consequatur odio sint, delectus beatae blanditiis quos, laboriosam quo ratione deleniti laudantium itaque perferendis corporis quidem cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sapiente repellat asperiores fugiat rerum, autem alias at natus minus nam officiis, eum obcaecati id, consectetur aut dolorum temporibus debitis harum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde suscipit quasi libero enim, dolores delectus dignissimos dolor repellendus laudantium odit quis illo obcaecati necessitatibus quas ipsa voluptas nostrum repellat nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eligendi dolorum nesciunt consectetur cum eos aperiam non, doloribus recusandae dolores, quod commodi porro reiciendis? Sed facilis dolores mollitia. Magnam, saepe?"
+      }
     ]
-}
+  }
