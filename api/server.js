@@ -1,34 +1,31 @@
-// api/server.js
-const jsonServer = require('json-server');
-const path = require('path');
-const fs = require('fs');
+// See https://github.com/typicode/json-server#module
+const jsonServer = require('json-server')
 
-// Đường dẫn tới file db.json trong thư mục gốc
-const dbFilePath = path.join(process.cwd(), 'db.json');
+const server = jsonServer.create()
 
-let dbData;
-try {
-    const fileContents = fs.readFileSync(dbFilePath, 'utf-8');
-    dbData = JSON.parse(fileContents);
-} catch (err) {
-    console.error('LỖI: Không thể đọc hoặc parse db.json:', err);
-    // Dữ liệu mặc định nếu db.json bị thiếu hoặc lỗi
-    dbData = { _error_loading_db: true, posts: [], comments: [] };
-}
+// Uncomment to allow write operations
+// const fs = require('fs')
+// const path = require('path')
+// const filePath = path.join('db.json')
+// const data = fs.readFileSync(filePath, "utf-8");
+// const db = JSON.parse(data);
+// const router = jsonServer.router(db)
 
-const server = jsonServer.create();
-// Quan trọng: Sử dụng một bản sao sâu (deep copy) của dbData
-const router = jsonServer.router(JSON.parse(JSON.stringify(dbData)));
-const middlewares = jsonServer.defaults();
+// Comment out to allow write operations
+const router = jsonServer.router('db.json')
 
-server.use(middlewares);
+const middlewares = jsonServer.defaults()
 
-// Khi request đến /api/server/posts, Vercel sẽ gọi function này.
-// req.url bên trong function này sẽ là /posts (phần còn lại sau /api/server).
-// Điều này hoàn toàn phù hợp với cách json-server mong đợi.
-server.use(router);
+server.use(middlewares)
+// Add this before server.use(router)
+server.use(jsonServer.rewriter({
+    '/api/*': '/$1',
+    '/blog/:resource/:id/show': '/:resource/:id'
+}))
+server.use(router)
+server.listen(3000, () => {
+    console.log('JSON Server is running')
+})
 
-// Xuất handler cho Vercel
-module.exports = (req, res) => {
-    server(req, res);
-};
+// Export the Server API
+module.exports = server
