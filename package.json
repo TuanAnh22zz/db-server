@@ -1,10 +1,11 @@
 {
-  "name": "json-server-vercel",
+  "name": "json-server-vercel-example",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port 3000"
+    "dev": "vercel dev",
+    "start": "node api/server.js" 
   },
   "dependencies": {
-    "json-server": "^0.16.3"
+    "json-server": "^0.17.4" 
   }
 }
